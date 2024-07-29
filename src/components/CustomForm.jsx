@@ -33,9 +33,10 @@ const Form = ({ thing, handleInput, handleSubmit }) => {
           className="bg-inherit rounded-md font-sans
           text-slate-800 py-2 px-6 focus:outline-none
           focus:text-teal-600 hover:text-teal-600
+          
           "
         >
-          <ArrowRightCircleIcon className="h-12 w-12" />
+          <ArrowRightCircleIcon className="h-12 w-12 pointer-events-none" />
         </button>
       </form>
     </>
