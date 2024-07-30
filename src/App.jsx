@@ -38,7 +38,7 @@ function App() {
     e.target.setAttribute("disabled", true);
     setThing(getSuccessMessage());
     await jsConfetti.addConfetti({
-      emojis:['🌈', '⚡️', '💥', '✨', '💫', '🌸']
+      emojis:['🌈', '⚡️', '💥', '✨', '💫', '🌸','🙂','💴','🎇','😘','🎶','💕','👀']
     });
     e.target.removeAttribute("disabled");
     setThing("");
