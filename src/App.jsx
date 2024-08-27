@@ -15,6 +15,7 @@ function getSuccessMessage() {
     "Did you though?",
     "Don't feel like you tried your best...",
     "FAget about it！",
+    "Good lucky."
   ];
 
   return message[Math.floor(Math.random() * message.length)];
